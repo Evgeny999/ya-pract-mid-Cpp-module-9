@@ -4,9 +4,6 @@
 #include "types.hpp"
 #include <stdexec/execution.hpp>
 
-// Убираем предварительное объявление, так как MandelbrotSender не шаблонный
-struct MandelbrotSender;
-
 template <typename Receiver>
 struct MandelbrotOperationState {
     Receiver receiver_;
